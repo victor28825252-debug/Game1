@@ -1,0 +1,35 @@
+project_id: "little-finance-nightmares"
+mode: teaching
+current_phase: sdlc-release
+requirements_version: "1.0-delegated"
+gate_status: delegated-by-user-complete-and-publish
+dt_handoff: delegated
+sdlc_release: ready-for-publication
+final_acceptance: pending
+confirmed:
+  - "目標對象為小學生，教學單元為生活理財投資。"
+  - "遊戲須有兩關，每關一個互動單元；答題成功才能取得鑰匙。"
+  - "每關顯示得分，最後顯示進步成果。"
+  - "使用 C:\\Godot 和 C:\\blender 製作，交付 Godot 網頁版本。"
+  - "開發者將學會做理財判斷列為首要成果，適當挑戰列為第二優先。"
+assumptions:
+  - "以國小四至六年級作為首輪設計基準，由開發者依使用者完成與發布授權代選。"
+  - "延續現有原創角色及暗色童話氣氛，不使用 Little Nightmares 的素材。"
+  - "遊戲設計方案與視覺方向由開發者依評分紀錄代選，尚未經實際學生測試。"
+open_questions:
+  - "正式學習成效仍需目標年級學生進行形成性測試。"
+  - "發布後由使用者驗收。"
+artifacts:
+  brief: "project-brief.md"
+  decision_log: "decision-log.md"
+  change_log: "change-log.md"
+required_tests:
+  - "Godot 兩關流程與鑰匙門鎖測試"
+  - "桌機與手機橫向網頁可玩性檢查"
+  - "國小目標年齡玩家的形成性測試；尚未取得玩家資料"
+passed_tests:
+  - "Godot headless 雙步驟、鑰匙、扣分、同關重玩比較流程測試通過"
+known_limitations:
+  - "每關只有兩個固定題目，仍可能靠反覆嘗試記住答案。"
+  - "同關分數變化只能代表遊戲表現，不能單獨證明學習進步。"
+  - "尚未進行實際小學生玩家測試。"

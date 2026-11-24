@@ -1,0 +1,195 @@
+{
+  "ranking_method": "pareto_front_then_minimum_dimension_then_mean_then_id",
+  "ranked": [
+    {
+      "id": "B",
+      "name": "雙鎖理財決策（情境與遷移）",
+      "hard_gates": {
+        "two_levels": true,
+        "child_safe": true,
+        "godot_web": true,
+        "reasoning_not_guessing": true
+      },
+      "scores": {
+        "game_experience": 86,
+        "research_validity": 82,
+        "development_feasibility": 86
+      },
+      "education": {
+        "L": 88,
+        "E": 78,
+        "M": 80,
+        "A": 84,
+        "G": 24,
+        "C": 26
+      },
+      "evidence_level": "ai_pre_score",
+      "confidence": "medium",
+      "pareto_front": 1,
+      "minimum_dimension": 82,
+      "mean_score": 84.67
+    },
+    {
+      "id": "G",
+      "name": "理財證據帳本",
+      "hard_gates": {
+        "two_levels": true,
+        "child_safe": true,
+        "godot_web": true,
+        "reasoning_not_guessing": true
+      },
+      "scores": {
+        "game_experience": 78,
+        "research_validity": 88,
+        "development_feasibility": 80
+      },
+      "education": {
+        "L": 90,
+        "E": 62,
+        "M": 70,
+        "A": 76,
+        "G": 18,
+        "C": 48
+      },
+      "evidence_level": "ai_pre_score",
+      "confidence": "medium",
+      "pareto_front": 1,
+      "minimum_dimension": 78,
+      "mean_score": 82.0
+    },
+    {
+      "id": "E",
+      "name": "分岔故事與後果回放",
+      "hard_gates": {
+        "two_levels": true,
+        "child_safe": true,
+        "godot_web": true,
+        "reasoning_not_guessing": true
+      },
+      "scores": {
+        "game_experience": 82,
+        "research_validity": 79,
+        "development_feasibility": 82
+      },
+      "education": {
+        "L": 80,
+        "E": 84,
+        "M": 82,
+        "A": 78,
+        "G": 38,
+        "C": 35
+      },
+      "evidence_level": "ai_pre_score",
+      "confidence": "medium",
+      "pareto_front": 2,
+      "minimum_dimension": 79,
+      "mean_score": 81.0
+    },
+    {
+      "id": "F",
+      "name": "小市場比價與價格變動",
+      "hard_gates": {
+        "two_levels": true,
+        "child_safe": true,
+        "godot_web": true,
+        "reasoning_not_guessing": true
+      },
+      "scores": {
+        "game_experience": 78,
+        "research_validity": 76,
+        "development_feasibility": 83
+      },
+      "education": {
+        "L": 76,
+        "E": 80,
+        "M": 75,
+        "A": 76,
+        "G": 49,
+        "C": 44
+      },
+      "evidence_level": "ai_pre_score",
+      "confidence": "low",
+      "pareto_front": 2,
+      "minimum_dimension": 76,
+      "mean_score": 79.0
+    }
+  ],
+  "eliminated": [
+    {
+      "id": "A",
+      "name": "單題門鎖走廊（舊原型）",
+      "hard_gates": {
+        "two_levels": true,
+        "child_safe": true,
+        "godot_web": true,
+        "reasoning_not_guessing": false
+      },
+      "scores": {
+        "game_experience": 62,
+        "research_validity": 52,
+        "development_feasibility": 94
+      },
+      "education": {
+        "L": 52,
+        "E": 68,
+        "M": 66,
+        "A": 72,
+        "G": 78,
+        "C": 22
+      },
+      "evidence_level": "prototype_observation",
+      "confidence": "low"
+    },
+    {
+      "id": "C",
+      "name": "自由分配金幣的三罐預算",
+      "hard_gates": {
+        "two_levels": true,
+        "child_safe": true,
+        "godot_web": true,
+        "reasoning_not_guessing": true,
+        "scope_feasible": false
+      },
+      "scores": {
+        "game_experience": 85,
+        "research_validity": 84,
+        "development_feasibility": 68
+      },
+      "education": {
+        "L": 86,
+        "E": 76,
+        "M": 72,
+        "A": 72,
+        "G": 28,
+        "C": 58
+      },
+      "evidence_level": "ai_pre_score",
+      "confidence": "low"
+    },
+    {
+      "id": "D",
+      "name": "限時接金幣與採購",
+      "hard_gates": {
+        "two_levels": true,
+        "child_safe": true,
+        "godot_web": true,
+        "motor_access": false
+      },
+      "scores": {
+        "game_experience": 79,
+        "research_validity": 49,
+        "development_feasibility": 82
+      },
+      "education": {
+        "L": 58,
+        "E": 86,
+        "M": 62,
+        "A": 49,
+        "G": 68,
+        "C": 40
+      },
+      "evidence_level": "ai_pre_score",
+      "confidence": "low"
+    }
+  ]
+}
