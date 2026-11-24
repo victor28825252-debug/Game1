@@ -3,8 +3,8 @@ mode: teaching
 current_phase: sdlc-release
 requirements_version: "1.0-delegated"
 gate_status: delegated-by-user-complete-and-publish
-dt_handoff: delegated
-sdlc_release: ready-for-publication
+dt_handoff: approved
+sdlc_release: approved
 final_acceptance: pending
 confirmed:
   - "目標對象為小學生，教學單元為生活理財投資。"
